@@ -24,7 +24,7 @@
               start
             />
 
-            Components
+            components
           </v-btn>
         </v-col>
 
@@ -61,8 +61,10 @@
               size="large"
               start
             />
-
-            Community
+            community
+          <button>
+            
+          </button>
           </v-btn>
         </v-col>
       </v-row>
@@ -70,6 +72,8 @@
   </v-container>
 </template>
 
-<script setup>
-  //
+<script>
+export default {
+
+}
 </script>
