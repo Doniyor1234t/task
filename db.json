@@ -1,19 +1,336 @@
 {
-  "posts": [
+  "workers": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "John",
+      "surname": "Smith",
+      "dBirth":"2004-10-31T09:00:00.594Z",
+      "passport":"AB1234567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 2,
+      "name": "Mary",
+      "surname": "Johnson",
+      "dBirth":"2000-10-31T09:00:00.594Z",
+      "passport":"DB1234767",
+      "gender":"Female",
+      "active":false
+    },
+    {
+      "id": 3,
+      "name": "Peter",
+      "surname": "Brown",
+      "dBirth":"1999-10-31T09:00:00.594Z",
+      "passport":"AT1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 4,
+      "name": "Diana",
+      "surname": "Williams",
+      "dBirth":"1984-10-31T09:00:00.594Z",
+      "passport":"MB1344567",
+      "gender":"Female",
+      "active":false
+    },
+    {
+      "id": 5,
+      "name": "Edward",
+      "surname": "Evans",
+      "dBirth":"1990-10-31T09:00:00.594Z",
+      "passport":"OB1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 6,
+      "name": "Frank",
+      "surname": "Thomas",
+      "dBirth":"2001-10-31T09:00:00.594Z",
+      "passport":"AL1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 7,
+      "name": "Grace",
+      "surname": "Taylor",
+      "dBirth":"2003-10-31T09:00:00.594Z",
+      "passport":"AR1344567",
+      "gender":"Female",
+      "active":true
+    },
+    {
+      "id": 8,
+      "name": "Henry",
+      "surname": "Wilson",
+      "dBirth":"1995-10-31T09:00:00.594Z",
+      "passport":"BF1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 9,
+      "name": "Isabella",
+      "surname": "Cooper",
+      "dBirth":"1988-10-31T09:00:00.594Z",
+      "passport":"TR1344567",
+      "gender":"Female",
+      "active":true
+    },
+    {
+      "id": 10,
+      "name": "James",
+      "surname": "Green",
+      "dBirth":"1980-10-31T09:00:00.594Z",
+      "passport":"LQ1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 11,
+      "name": "John",
+      "surname": "Davis",
+      "dBirth":"1979-10-31T09:00:00.594Z",
+      "passport":"HT1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 12,
+      "name": "Kate",
+      "surname": "Miller",
+      "dBirth":"2005-10-31T09:00:00.594Z",
+      "passport":"AB1344567",
+      "gender":"Female",
+      "active":true
+    },
+    {
+      "id": 13,
+      "name": "Lily",
+      "surname": "Moore",
+      "dBirth":"2002-10-31T09:00:00.594Z",
+      "passport":"LA1344567",
+      "gender":"Female",
+      "active":true
+    },
+    {
+      "id": 14,
+      "name": "Michael",
+      "surname": "Johnson",
+      "dBirth":"1975-10-31T09:00:00.594Z",
+      "passport":"FJ1344567",
+      "gender":"Male",
+      "active":true
+    },
+    {
+      "id": 15,
+      "name": "Alice",
+      "surname": "Smith",
+      "dBirth":"1981-10-31T09:00:00.594Z",
+      "passport":"SL1344567",
+      "gender":"Female",
+      "active":true
     }
   ],
-  "comments": [
+  "documents": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "typeDoc": "invoice",
+      "postId": 1,
+      "date": "2023-10-31T09:00:00.594Z",
+      "desc":"description about document"
+    },
+    {
+      "id": 2,
+      "typeDoc": "procuration",
+      "postId": 2,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 3,
+      "typeDoc": "procuration",
+      "postId": 3,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 4,
+      "typeDoc": "procuration",
+      "postId": 4,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 5,
+      "typeDoc": "procuration",
+      "postId": 5,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 6,
+      "typeDoc": "invoice",
+      "postId": 6,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document"
+    },
+    {
+      "id": 7,
+      "typeDoc": "procuration",
+      "postId": 7,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 8,
+      "typeDoc": "procuration",
+      "postId": 8,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 9,
+      "typeDoc": "procuration",
+      "postId": 9,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 10,
+      "typeDoc": "procuration",
+      "postId": 10,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 11,
+      "typeDoc": "invoice",
+      "postId": 11,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document"
+    },
+    {
+      "id": 12,
+      "typeDoc": "procuration",
+      "postId": 12,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 13,
+      "typeDoc": "procuration",
+      "postId": 13,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 14,
+      "typeDoc": "procuration",
+      "postId": 14,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 15,
+      "typeDoc": "procuration",
+      "postId": 15,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 16,
+      "typeDoc": "invoice",
+      "postId": 16,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document"
+    },
+    {
+      "id": 17,
+      "typeDoc": "procuration",
+      "postId": 17,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 18,
+      "typeDoc": "procuration",
+      "postId": 18,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 19,
+      "typeDoc": "procuration",
+      "postId": 19,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 20,
+      "typeDoc": "procuration",
+      "postId": 20,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 21,
+      "typeDoc": "invoice",
+      "postId": 21,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document"
+    },
+    {
+      "id": 22,
+      "typeDoc": "procuration",
+      "postId": 22,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 23,
+      "typeDoc": "procuration",
+      "postId": 23,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 24,
+      "typeDoc": "procuration",
+      "postId": 24,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
+    },
+    {
+      "id": 25,
+      "typeDoc": "procuration",
+      "postId": 25,
+      "date": "2023-01-31T09:00:00.594Z",
+      "desc":"description about document",
+      "madeBy":"John"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

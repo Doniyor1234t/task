@@ -1,7 +1,13 @@
 <template>
   <router-view />
-</template>
+</template> 
 
-<script setup>
-  //
+<script>
+export default {
+  mounted() {
+    this.$store.dispatch("allEmployees")
+    this.$store.dispatch("allDocuments")
+  }
+
+}
 </script>

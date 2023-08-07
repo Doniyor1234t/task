@@ -1,12 +1,15 @@
 <template>
-  <v-app>
+  <v-card>
+    <v-layout class="h-screen ">
     <default-bar />
+      <router-view></router-view>
+    </v-layout>
+  </v-card>
+  <!-- <v-app> -->
 
-    <default-view />
-  </v-app>
+  <!-- </v-app> -->
 </template>
 
 <script setup>
   import DefaultBar from './AppBar.vue'
-  import DefaultView from './View.vue'
 </script>

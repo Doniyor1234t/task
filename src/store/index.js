@@ -1,4 +1,6 @@
 import { createStore } from "vuex";
+import employees from "./employees";
+import documents from "./documents";
 
 export default createStore({
   state: {
@@ -14,5 +16,6 @@ export default createStore({
   actions: {
   },
   modules: {
+    employees, documents
   }
 })
